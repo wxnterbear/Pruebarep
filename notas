@@ -1,0 +1,47 @@
+Lista suele ser lineal
+
+Arboles - a nivel de nodos no tiene una estructura lineal, se tiene la raíz y las hojas
+
+-> Nodos sin hijos -> ramas/hojas
+-> Raiz, nodo principal
+-> Ordenados, binarios
+-> como se recorre la estructura
+-> Algorítmos para la ordenación de árboles
+-> Peso del árbol (balanceo)
+
+-> Estrategias de búsqueda pensada para árboles binarios (padres e hijos (solo 2 hijos))
+  -> Nodo izquierda derecha
+  -> Izquierda nodo derecha
+  -> Derecha nodo izquierda
+
+Inserción
+1° Nodo - principal
+Si el siguiente numero es mayor -> derecha
+Si el siguiente numero es menor -> Izquierda
+
+Inorden, postorden
+
+struct Nodo{
+	int num;
+	* Nodo izq
+	* Nodo der
+
+};
+
+void insertar(Nodo* arbol, int num){
+
+	if(arbol -> valor = valor){
+	  return NULL;
+  	}
+	elseif (arbol -> valor > valor){
+	  if(arbol -> izq = NULL){
+	    nodo
+	    arbol_izq
+	  }
+	  else{
+	    insertar (arbol -> izq, valor)
+	        }
+	}
+}
+
+
